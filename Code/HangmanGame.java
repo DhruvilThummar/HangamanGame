@@ -79,7 +79,7 @@ class HangmanGame {
         char guess;
         boolean isGuessed;
 
-        System.out.println("Welcome to Hangman Game!");
+        System.out.println("\u001B[32mWelcome to Hangman Game!\u001B[0m");  
         System.out.println("Try to guess the secret word related to Java programming.");
 
         while (attemptsLeft > 0 && guessedWord.indexOf("_") != -1) {
