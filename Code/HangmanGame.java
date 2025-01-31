@@ -115,7 +115,8 @@ class HangmanGame {
         sc.nextLine();
         String playAgain = sc.nextLine();
         if (playAgain.equals("yes")) {
-            playGame();
+            HangmanGame H=new HangmanGame();
+            H.playGame();
             sc.nextLine();
         } else {
             System.out.println("Thanks for playing!");
